@@ -1,0 +1,94 @@
+
+*{box-sizing: border-box;
+padding: 0%;
+margin: 0%;
+}
+
+body{background-color: rgb(245, 231, 214);
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.card{
+    background:url("image-product-desktop.jpg");
+    background-size: cover;
+    width: 270px;
+    height: 400px; 
+    margin-top: 40px; 
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+.cards{background: white;
+    width: 270px;
+    height: 400px;
+    margin-top: 40px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+
+    
+
+}
+
+.image{
+    background:url("image-product-desktop.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+button{
+    width: 200px;
+    height: 38px;
+    margin-left: 30px;
+    margin-top:20px;
+    background-color: #067c55;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #03443e;
+    display: block;
+    color:#e2f0ee;
+    cursor: pointer;
+    
+    overflow: hidden;
+}
+.text1{
+    margin-top:30px;
+    margin-left: 30px;
+    color: rgb(131, 109, 109);
+    font-size: 14px;
+    
+}
+.text{
+    margin-left: 30px;
+    margin-top: 29px;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+.text2{
+    margin-left: 30px;
+    margin-top: 24px;
+    color: rgb(131, 109, 109);
+    font-family: 'montserrat''serif';
+}
+.text3{
+    margin-left: 30px;
+    margin-top: 28px;
+    color: #067c55;
+    word-spacing:  10px;
+    font-family: 'Fraunces', serif
+}
+.small{font-size: 13px;
+    text-decoration-line: line-through;
+    color: rgb(131, 109, 109);
+    justify-content: center;
+    
+}
